@@ -24,4 +24,4 @@ jobs:
         run: |
           python -m pip install --upgrade pip
       - name: Run proxy_server.py
-        run: python main.py
+        run: python proxy_server.py
