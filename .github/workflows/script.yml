@@ -23,5 +23,6 @@ jobs:
       - name: Run a Python script
         run: |
           python -m pip install --upgrade pip
+          pip install thread6
       - name: Run proxy_server.py
         run: python proxy_server.py
