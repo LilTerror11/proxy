@@ -122,6 +122,8 @@ def extract_host_port_from_request(request):
 
 def start_proxy_server():
 
+    print("Test")
+
     port = 8888
 
     # bind the proxy server to a specific address and port
