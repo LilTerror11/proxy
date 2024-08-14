@@ -150,6 +150,4 @@ def start_proxy_server():
 
         client_handler.start()
 
-if __name__ == "__main__":
-
-    start_proxy_server()
+start_proxy_server()
